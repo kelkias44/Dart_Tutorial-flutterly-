@@ -11,7 +11,7 @@ environment:
 dependencies:
   calculator:
     path: './packages/calculator'
-   
+  equatable: ^2.0.3
      
   # path: ^1.8.0
 
