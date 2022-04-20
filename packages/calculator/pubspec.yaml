@@ -1,0 +1,6 @@
+name: calculator
+publish_to: none
+environment:
+  sdk: '>=2.17.0-69.2.beta <3.0.0'
+dependencies: {pedantic: ^1.11.1}
+
