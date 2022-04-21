@@ -238,7 +238,15 @@ map1.addEntries([const MapEntry(1, 2)]);
 var mapc = {...mapb};
 // print(mapc);
 
+//runes
+  
 
+
+var runes = Runes('hello')
+      .map(
+        (e) => e.toRadixString(16).padLeft(4,'0'),
+      ).toList();
+print(runes);
 
 
 
